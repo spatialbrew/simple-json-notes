@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+	<style> html, body { font-family:sans-serif;font-size:1.2em; color:white;}</style>
+	</head>
+<body>
+	<script type="text/javascript" src="simple-json-notes.js"></script>
+	<script>
+		var myConfig ={
+		config: {
+			version: 'alpha',
+			title: 'JavaScript at Company',
+			notes: [{
+				title: 'JavaScript at Company',
+				slide: 'A Lightening Talk'
+			}, {
+				title: 'The Paradigm',
+				slide: '<strong>Example:  </strong>Reusable JavaScript with <a target="_blank" href="https://www.openstreetmap.org">Web Mapping APIs</a>'
+			}, {
+				title: 'The Problem',
+				slide: 'Increase Business Agility and decrease time to market by reducing the need for custom client-side development'
+			}, {
+				title: 'Solution',
+				slide: 'Reusable, Configurable JavaScript'
+			}, {
+				title: 'Buzzword JSAPI',
+				slide: 'Buzzword JSAPI is one approach we will work.'
+			}, {
+				title: 'Sidetrack:  Buzzword',
+				slide: '<p>Think Car Battery vs Car</p><p>Think Buzzword JSAPI vs Buzzword</p>'
+			}, {
+				title: 'Direction',
+				slide: 'Where Are We Going With This?<p><a target="_blank" href="http://localhost:9000/">Documentation</a> is deliverable.</p><p>Build Apps with confidence</p>'
+			}, {
+				title: 'Demo:  Built with Buzzword JSAPI',
+				slide: '<a href="" target="_blank">Show Off Some Project Work</a>'
+			}, {
+				title: 'Yet Another JSAPI',
+				slide: 'Example from a more mature Company api'
+			}, {
+				title: 'Demo',
+				slide: '<a href="">This Awesome Project</a> is built with the JSAPI'
+			}, {
+				title: 'Quick Preview',
+				slide: '<a href="">This Extremely Awesome Project</a> is built with the JSAPI!'
+			}, {
+				title: 'How Built',
+				slide: 'No .NET components were harmed during this project'
+			}, {
+				title: 'Future',
+				slide: 'Plugs In To the Larger Buzzword Vision...'
+			}]
+		}};
+
+
+		simpleNotes.setOptions(myConfig);
+		simpleNotes.startup();
+	</script>
+</body>
+</html>
